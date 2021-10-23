@@ -15,7 +15,7 @@ lall = string.split()
 print("List of elements in the string:", lall)
 di = dict()
 di = countn(lall)
-print("Displys all the elemsnt swith number of times they have occured:")
+print("Displays all the elements with number of times they have occurred:")
 print(di)
 for k in list(di.keys()):
     if di[k] <= 3:
@@ -23,4 +23,4 @@ for k in list(di.keys()):
 
 print("Elements having values less than 3 : ")
 for items in di:
-    print("'{}' have occured {} number of times ".format(items, di[items]))
+    print("'{}' have occurred {} number of times ".format(items, di[items]))
